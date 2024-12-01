@@ -1,0 +1,176 @@
+{
+  "title": "GURPS: TMNT - After the End",
+  "id": "after-the-end",
+  "system": "gurps",
+  "background": "After%20the%20End%20Foundry/Title%20Banner%20TMNT.png",
+  "description": "<p><span style=\"font-family:'Scaly Sans Remake'\">AtE is a TMNT style game set in post-apocalyptic <a class=\"autolink alias\" href=\"https://www.scabard.com/pbs/campaign/2543388/place/2543431\" style=\"box-sizing:border-box;background-color:rgb(255, 255, 255);color:rgb(102, 79, 1);text-decoration:none;border-bottom:1px solid rgb(102, 79, 1);font-family:'Scaly Sans Remake';font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px\">Earth</a>, 500 years after a massive industrial accident on the <a class=\"autolink\" href=\"https://www.scabard.com/pbs/campaign/2543388/place/2543404\" style=\"box-sizing:border-box;background-color:rgb(255, 255, 255);color:rgb(102, 79, 1);text-decoration:none;border-bottom:1px solid rgb(102, 79, 1);font-family:'Scaly Sans Remake';font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px\">Moon</a> and pieces have fallen and crashed into the planet’s surface causing civilization ending earthquakes, tsunamis, and more.</span></p>",
+  "coreVersion": "11.307",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.307"
+  },
+  "systemVersion": "0.16.4",
+  "packs": [
+    {
+      "label": "TMNT Bestiary",
+      "type": "Actor",
+      "name": "tmnt-bestiary",
+      "path": "packs/tmnt-bestiary",
+      "system": "gurps",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "TMNT NPCs",
+      "type": "Actor",
+      "name": "tmnt-npcs",
+      "path": "packs/tmnt-npcs",
+      "system": "gurps",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "TMNT Mooks",
+      "type": "Actor",
+      "name": "tmnt-mooks",
+      "path": "packs/tmnt-mooks",
+      "system": "gurps",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "TMNT Journal",
+      "type": "JournalEntry",
+      "name": "tmnt-journal",
+      "path": "packs/tmnt-journal",
+      "system": "gurps",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "type": "Item",
+      "label": "TMNT Ammo",
+      "name": "TMNT Ammo",
+      "path": "packs/TMNT Ammo",
+      "system": "gurps",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Common Ammo",
+      "type": "Item",
+      "name": "common-ammo",
+      "path": "packs/common-ammo",
+      "system": "gurps",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "type": "Item",
+      "label": "TMNT Missile Weapons",
+      "name": "TMNT Missile Weapons",
+      "path": "packs/TMNT Missile Weapons",
+      "system": "gurps",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "type": "Item",
+      "label": "ATE Melee Weapons",
+      "name": "ATE Melee Weapons",
+      "path": "packs/ATE Melee Weapons",
+      "system": "gurps",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "type": "Macro",
+      "label": "World Scripter Macros",
+      "name": "macros",
+      "path": "packs/macros",
+      "system": "gurps",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "GURPS References",
+      "type": "JournalEntry",
+      "name": "gurps-references",
+      "path": "packs/gurps-references",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Longshot Saloon Food & Drink",
+      "name": "Longshot Saloon Food & Drink",
+      "path": "packs/Longshot Saloon Food & Drink",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Skriff's Scrapyard",
+      "name": "Skriff's Scrapyard",
+      "path": "packs/Skriff's Scrapyard",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "ATE Power",
+      "type": "Item",
+      "name": "ate-power",
+      "path": "packs/ate-power",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "lastPlayed": "Mon Aug 07 2023 11:55:42 GMT-0500 (Central Daylight Time)",
+  "safeMode": false,
+  "joinTheme": "default",
+  "playtime": 826162,
+  "nextSession": "2023-08-11T00:00:00.000Z"
+}

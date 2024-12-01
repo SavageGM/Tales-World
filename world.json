@@ -1,0 +1,895 @@
+{
+  "title": "Tales from the Planet of Mutants",
+  "id": "after-the-end",
+  "system": "gurps",
+  "background": "https://assets.forge-vtt.com/60aa98f28c861fefea9dc867/After%20the%20End%20Foundry/ATE%20Images/Banners%20%26%20Titles/Armageddon%20Banner%202.png",
+  "coreVersion": "12.331",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "systemVersion": "0.17.16",
+  "packs": [
+    {
+      "type": "Macro",
+      "label": "World Scripter Macros",
+      "name": "macros",
+      "path": "packs/macros",
+      "system": "gurps",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "GURPS References",
+      "type": "JournalEntry",
+      "name": "gurps-references",
+      "path": "packs/gurps-references",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Longshot Saloon Food & Drink",
+      "name": "LongshotSaloonFoodDrink",
+      "path": "packs/Longshot Saloon Food & Drink",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Ammo, Pistol & SMG",
+      "name": "AmmoPistolSMG",
+      "path": "packs/Ammo, Pistol & SMG",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Ammo, Rifles and Machine Guns",
+      "name": "AmmoRiflesandMachineGuns",
+      "path": "packs/Ammo, Rifles and Machine Guns",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Ammo, Shotgun",
+      "name": "AmmoShotgun",
+      "path": "packs/Ammo, Shotgun",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Ammo, Grenade Launchers",
+      "name": "AmmoGrenadeLaunchers",
+      "path": "packs/Ammo, Grenade Launchers",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Ammo, Light Antitank Weapons",
+      "name": "AmmoLightAntitankWeapons",
+      "path": "packs/Ammo, Light Antitank Weapons",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Ammo, Mortars",
+      "name": "AmmoMortars",
+      "path": "packs/Ammo, Mortars",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "ATE Bestiary",
+      "type": "Actor",
+      "name": "ate-bestiary",
+      "path": "packs/ate-bestiary",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Supermarket",
+      "type": "Item",
+      "name": "supermarket",
+      "path": "packs/supermarket",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "ATE Scenes",
+      "type": "Scene",
+      "name": "ate-scenes",
+      "path": "packs/ate-scenes",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Armor",
+      "name": "Armor",
+      "path": "packs/Armor",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Camping & Survival",
+      "name": "CampingSurvival",
+      "path": "packs/Camping & Survival",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Foodstuffs",
+      "name": "Foodstuffs",
+      "path": "packs/Foodstuffs",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Clothing",
+      "name": "Clothing",
+      "path": "packs/Clothing",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Communications and Information Gear",
+      "name": "CommunicationsandInformationGear",
+      "path": "packs/Communications and Information Gear",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Containers and Load Bearing Equipment",
+      "name": "ContainersandLoadBearingEquipment",
+      "path": "packs/Containers and Load Bearing Equipment",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Equestrian",
+      "name": "Equestrian",
+      "path": "packs/Equestrian",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Fuel",
+      "name": "Fuel",
+      "path": "packs/Fuel",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Household Goods",
+      "name": "HouseholdGoods",
+      "path": "packs/Household Goods",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Law Enforcement & Spy Gear",
+      "name": "LawEnforcementSpyGear",
+      "path": "packs/Law Enforcement & Spy Gear",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Medical",
+      "name": "Medical",
+      "path": "packs/Medical",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Optics & Sensors",
+      "name": "OpticsSensors",
+      "path": "packs/Optics & Sensors",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Firearms Accessories",
+      "name": "FirearmsAccessories",
+      "path": "packs/Firearms Accessories",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Firearms, Air Guns",
+      "name": "FirearmsAirGuns",
+      "path": "packs/Firearms, Air Guns",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Firearms, Grenade Launchers",
+      "name": "FirearmsGrenadeLaunchers",
+      "path": "packs/Firearms, Grenade Launchers",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Firearms, Light Antitank Weapons",
+      "name": "FirearmsLightAntitankWeapons",
+      "path": "packs/Firearms, Light Antitank Weapons",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Firearms, Machineguns",
+      "name": "FirearmsMachineguns",
+      "path": "packs/Firearms, Machineguns",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Firearms, Pistols",
+      "name": "FirearmsPistols",
+      "path": "packs/Firearms, Pistols",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Firearms, Revolvers",
+      "name": "FirearmsRevolvers",
+      "path": "packs/Firearms, Revolvers",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Firearms, Rifles",
+      "name": "FirearmsRifles",
+      "path": "packs/Firearms, Rifles",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Firearms, Shotguns",
+      "name": "FirearmsShotguns",
+      "path": "packs/Firearms, Shotguns",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Firearms, Submachineguns",
+      "name": "FirearmsSubmachineguns",
+      "path": "packs/Firearms, Submachineguns",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "UT Ammo",
+      "name": "UTAmmo",
+      "path": "packs/UT Ammo",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "UT Equipment",
+      "name": "UTEquipment",
+      "path": "packs/UT Equipment",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "UT Expedition Gear",
+      "name": "UTExpeditionGear",
+      "path": "packs/UT Expedition Gear",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "UT Firearm Accessories",
+      "name": "UTFirearmAccessories",
+      "path": "packs/UT Firearm Accessories",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "UT Medical",
+      "name": "UTMedical",
+      "path": "packs/UT Medical",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "UT Weapons",
+      "name": "UTWeapons",
+      "path": "packs/UT Weapons",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Melee Weapons",
+      "name": "MeleeWeapons",
+      "path": "packs/Melee Weapons",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Hand Grenades",
+      "name": "HandGrenades",
+      "path": "packs/Hand Grenades",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Explosives",
+      "name": "Explosives",
+      "path": "packs/Explosives",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Tools",
+      "name": "Tools",
+      "path": "packs/Tools",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Salvaged Equipment",
+      "name": "SalvagedEquipment",
+      "path": "packs/Salvaged Equipment",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Common Drugs",
+      "type": "Item",
+      "name": "common-drugs",
+      "path": "packs/common-drugs",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Random Loot",
+      "type": "Item",
+      "name": "random-loot",
+      "path": "packs/random-loot",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Junk 2",
+      "name": "Junk2",
+      "path": "packs/Junk 2",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Misc $500 or more",
+      "name": "Misc500ormore",
+      "path": "packs/Misc $500 or more",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Custom Macros",
+      "type": "Macro",
+      "name": "custom-macros",
+      "path": "packs/custom-macros",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "JERBNAS2 Cargo Pile One",
+      "type": "Item",
+      "name": "jerbnas2-cargo-pile-one",
+      "path": "packs/jerbnas2-cargo-pile-one",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Power",
+      "type": "Item",
+      "name": "power",
+      "path": "packs/power",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Loot",
+      "type": "Item",
+      "name": "loot",
+      "path": "packs/loot",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Auto Parts",
+      "type": "RollTable",
+      "name": "auto-parts",
+      "path": "packs/auto-parts",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Encounters",
+      "type": "Scene",
+      "name": "encounters",
+      "path": "packs/encounters",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Robots",
+      "type": "Actor",
+      "name": "robots",
+      "path": "packs/robots",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "ATE Contacts",
+      "type": "Actor",
+      "name": "ate-contacts",
+      "path": "packs/ate-contacts",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "ATE Mooks",
+      "type": "Actor",
+      "name": "ate-mooks",
+      "path": "packs/ate-mooks",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "ATE Bosses",
+      "type": "Actor",
+      "name": "ate-bosses",
+      "path": "packs/ate-bosses",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Junk 1",
+      "name": "Junk1",
+      "path": "packs/Junk 1",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Low Tech Equipment",
+      "name": "LowTechEquipment",
+      "path": "packs/Low Tech Equipment",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Low Tech Instant Armor",
+      "name": "LowTechInstantArmor",
+      "path": "packs/Low Tech Instant Armor",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "High Tech Equipment",
+      "name": "HighTechEquipment",
+      "path": "packs/High Tech Equipment",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Col's Equipment",
+      "name": "ColsEquipment",
+      "path": "packs/Col's Equipment",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Grace's Equipment",
+      "name": "GracesEquipment",
+      "path": "packs/Grace's Equipment",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Zion Lab Item Stack 1",
+      "type": "Item",
+      "name": "zion-lab-item-stack-1",
+      "path": "packs/zion-lab-item-stack-1",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Lab Level Loot",
+      "name": "LabLevelLoot",
+      "path": "packs/Lab Level Loot",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Security Cards",
+      "name": "SecurityCards",
+      "path": "packs/Security Cards",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "KC High Rise",
+      "type": "Scene",
+      "name": "kc-high-rise",
+      "path": "packs/kc-high-rise",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Zion Loot",
+      "name": "ZionLoot",
+      "path": "packs/Zion Loot",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "ATE UT Defenses",
+      "name": "ATEUTDefenses",
+      "path": "packs/ATE UT Defenses",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "ATE UT Melee Weapons",
+      "name": "ATEUTMeleeWeapons",
+      "path": "packs/ATE UT Melee Weapons",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "NG-7PDW",
+      "name": "NG-7PDW",
+      "path": "packs/NG-7PDW",
+      "system": "gurps",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "lastPlayed": "Sat Nov 30 2024 21:14:24 GMT+0000 (Coordinated Universal Time)",
+  "safeMode": false,
+  "joinTheme": "default",
+  "playtime": 1935893,
+  "nextSession": "2024-08-02T00:00:00.000Z"
+}
